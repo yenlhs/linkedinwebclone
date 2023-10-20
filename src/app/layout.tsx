@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<div className='w-full bg-white border border-b-gray-100 p-2'>
 					<Header />
 				</div>
-				<main className='border border-black'>{children}</main>
+				<main className=''>{children}</main>
 			</body>
 		</html>
 	);

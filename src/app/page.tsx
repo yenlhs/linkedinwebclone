@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Home() {
 	return (
-		<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-xl m-auto items-center'>
+		<div className='flex max-w-screen-xl m-auto place-content-start gap-4 py-6 px-10'>
 			<Profile />
 			<Feed />
 			<Info />
