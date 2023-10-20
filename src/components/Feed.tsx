@@ -5,7 +5,7 @@ import PostsList from './PostsList';
 export default function Feed() {
 	return (
 		<div className=''>
-			<div className='border border-gray-300 w-full min-w-[600px] rounded-lg'>
+			<div className='border border-gray-200 shadow-sm bg-white w-full min-w-[200px] max-w-[500px] rounded-lg'>
 				<div className='flex p-2'>
 					<UserCircleIcon width={35} />
 					<input type='text' placeholder='Start a post' />

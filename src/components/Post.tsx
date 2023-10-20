@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 export default function Post({ data }) {
 	return (
-		<div className='flex flex-col border border-gray-300 w-full min-w-[600px] rounded-lg my-4 gap-2'>
+		<div className='flex flex-col border border-gray-200 bg-white shadow-sm w-full min-w-[200px] max-w-[500px] rounded-lg my-4 gap-2'>
 			{/* post header */}
 			<div className='flex w-full p-2'>
 				<UserCircleIcon width={50} />
@@ -36,6 +36,12 @@ export default function Post({ data }) {
 				<div className='relative w-full h-80'>
 					<Image src={data.postImage} fill alt='post image' className='w-full object-cover' />
 				</div>
+			</div>
+
+			{/* post stats */}
+			<div className='flex border-b border-gray-200 justify-between p-2'>
+				<p>Adrian and 6 others</p>
+				<p>10 comments * 2 reposts</p>
 			</div>
 
 			{/* post footer */}
