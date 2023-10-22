@@ -3,7 +3,7 @@ import { UserGroupIcon, UserCircleIcon, BookmarkIcon, ChartBarSquareIcon } from 
 
 export default function Profile() {
 	return (
-		<div className='min-w-[250px]'>
+		<div className='max-w-[300px] w-[250px]'>
 			{/* <Image src='' alt='profile image' /> */}
 
 			<div className='rounded-lg border border-gray-200 bg-white shadow-sm mb-2 '>
