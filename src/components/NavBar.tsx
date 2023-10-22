@@ -12,33 +12,36 @@ import {
 export default function NavBar() {
 	return (
 		<div className='flex flex-row gap-4'>
-			<div className='flex flex-col justify-center items-center px-2'>
-				<HomeIcon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400 '>Home</p>
+			<div className='flex flex-col justify-center items-center px-2 group'>
+				<HomeIcon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>Home</p>
 			</div>
-			<div className='flex flex-col justify-center items-center px-2'>
-				<UserGroupIcon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400'>My Network</p>
+			<div className='flex flex-col justify-center items-center px-2 group'>
+				<UserGroupIcon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>My Network</p>
 			</div>
-			<div className='flex flex-col justify-center items-center px-2'>
-				<BriefcaseIcon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400'>Jobs</p>
+			<div className='flex flex-col justify-center items-center px-2 group'>
+				<BriefcaseIcon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>Jobs</p>
 			</div>
-			<div className='flex flex-col justify-center items-center px-2'>
-				<ChatBubbleLeftEllipsisIcon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400'>Messaging</p>
+			<div className='flex flex-col justify-center items-center px-2 group'>
+				<ChatBubbleLeftEllipsisIcon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>Messaging</p>
 			</div>
-			<div className='flex flex-col justify-center items-center px-2'>
-				<BellIcon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400'>Notifications</p>
+			<div className='flex flex-col justify-center items-center px-2 group relative'>
+				<BellIcon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>Notifications</p>
+				<div className='absolute top-0 right-5 -mt-1 px-2 py-1 bg-red-600 rounded-full'>
+					<p className='text-xs text-white'>2</p>
+				</div>
 			</div>
-			<div className='flex flex-col justify-center items-center px-2 border-r border-black-200'>
-				<UserCircleIcon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400'>Me</p>
+			<div className='flex flex-col justify-center items-center px-2 border-r border-black-200 group'>
+				<UserCircleIcon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>Me</p>
 			</div>
-			<div className='flex flex-col justify-center items-center px-2'>
-				<Squares2X2Icon width={25} color='gray' className='hover:fill-black' />
-				<p className='text-xs text-gray-400'>For Business</p>
+			<div className='flex flex-col justify-center items-center px-2 group'>
+				<Squares2X2Icon width={25} color='gray' className='group-hover:fill-black' />
+				<p className='text-xs text-gray-400 group-hover:text-black'>For Business</p>
 			</div>
 		</div>
 	);

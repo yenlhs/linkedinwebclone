@@ -72,7 +72,7 @@ const posts = [
 
 export default function PostsList() {
 	return (
-		<div>
+		<div className='flex flex-col w-full'>
 			{posts.map((post) => (
 				<Post key={post?.id} data={post} />
 			))}

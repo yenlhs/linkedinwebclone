@@ -3,7 +3,8 @@ import { InformationCircleIcon } from '@heroicons/react/20/solid';
 
 export default function Info() {
 	return (
-		<div className=' min-w-[250px] max-w-[300px] w-full'>
+		// <div className=' min-w-[250px] max-w-[300px] w-full'>
+		<div className='w-full md:max-w-[300px]'>
 			<div className='rounded-lg border border-gray-200 bg-white shadow-sm  p-4'>
 				<div className='flex justify-between'>
 					<p className='text-md font-semibold'>LinkedIn News</p>
