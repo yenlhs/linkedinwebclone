@@ -31,8 +31,8 @@ export default function NavBar() {
 			<div className='flex flex-col justify-center items-center px-2 group relative'>
 				<BellIcon width={25} color='gray' className='group-hover:fill-black' />
 				<p className='text-xs text-gray-400 group-hover:text-black'>Notifications</p>
-				<div className='absolute top-0 right-5 -mt-1 px-2 py-1 bg-red-600 rounded-full'>
-					<p className='text-xs text-white'>2</p>
+				<div className='absolute -top-1 right-5 bg-red-600 rounded-full px-[7px] py-[2px]'>
+					<p className=' text-white text-[11px] font-semibold'>2</p>
 				</div>
 			</div>
 			<div className='flex flex-col justify-center items-center px-2 border-r border-black-200 group'>

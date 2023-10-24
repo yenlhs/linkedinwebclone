@@ -6,7 +6,7 @@ export default function Feed() {
 	return (
 		// <div className='md:w-[500px] w-[700px] max-w-[600px]'>
 		<div className='w-full'>
-			<div className='flex flex-col border border-gray-200 shadow-sm bg-white w-full min-w-[200px] rounded-lg justify-center'>
+			<div className='flex flex-col border border-gray-200 shadow-sm bg-white w-full min-w-[500px] rounded-lg justify-center'>
 				<div className='flex p-2'>
 					<UserCircleIcon width={45} />
 					<input
